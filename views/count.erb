@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <img src="https://render.fineartamerica.com/images/rendered/default/print/5.625/14.000/break/images-medium/1-99-bottles-of-beer-geoff-strehlow.jpg">
+    </div>
+
+    <section>
+        <%if @current_count == 0%>
+            <p>No Bottles of beer on the wall!!!</p>
+            <a href="/99">Start Over Man!!!</a> 
+        <%else%>
+            <p> <%= @current_count %> Bottles of beer on the wall!!!</p>
+            <a href="/<%= @next_count%>">Take One down!!!</a>
+        <% end %>
+    </section>
+    
+    <div>
+        <img src="https://render.fineartamerica.com/images/rendered/default/print/5.625/14.000/break/images-medium/1-99-bottles-of-beer-geoff-strehlow.jpg">
+    </div>
+</body> 
+</html>
+
+
+
