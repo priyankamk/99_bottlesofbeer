@@ -9,4 +9,4 @@
 - You and click the link "Start Over Man!!" - It will start from "99 bottles of beer on the wall!!" as display.
 
 # Check out my webpage of 99 bottles of beer here: 
-[99 bottles of beer](https://sheltered-springs-74769.herokuapp.com/99)
+[99 bottles of beer](https://ninenine-bottles-pmukund.herokuapp.com/99)
